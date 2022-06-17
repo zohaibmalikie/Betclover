@@ -39,14 +39,14 @@ $('#navbarAppend').prepend(`
         </li>
 
         <li>
-            <a href="#">
+            <a href="./slot.html">
                 <div class="menu-title">Slots</div>
             </a>
         </li>
 
 
         <li>
-            <a href="#">
+            <a href="./instantGame.html">
                 <div class="menu-title">Instant game</div>
             </a>
         </li>

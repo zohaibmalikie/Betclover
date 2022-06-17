@@ -21,6 +21,7 @@
 	<!-- Custom Css -->
 	<link href="assets/css/custom/style.css" rel="stylesheet" />
 	<link href="assets/css/custom/footer.css" rel="stylesheet" />
+	<link href="assets/css/custom/change.css" rel="stylesheet" />
 
 	<title>Betclover</title>
 </head>
@@ -35,37 +36,159 @@
 
 				<div style="min-height: 430px;">
 
-					<div class="row justify-content-center">
-						<div class="col-lg-9 mt-4">
-							<h2 class="ttu fw-bolder mb-1">GoldMine</h2>
-							<h2 class="ttu fw-bolder">promotions</h2>
-							
-						
-							<div class="card mt-4 raduis25 cardGradient px-4 cp cardScale">
-								<div class="row g-0 align-items-center">
-									<div class="col-md-3">
-										<img src="./assets/images/login-images/login.png" alt="..." class="card-img">
+					<div class="px-0 px-lg-4 customTabs">
+						<ul class="nav nav-pills" role="tablist">
+							<li class="nav-item" role="presentation">
+								<a class="nav-link active" data-bs-toggle="pill" href="#pills-allPromotions" role="tab" aria-selected="true">
+									<div class="d-flex align-items-center">
+										<div class="tab-title">All Promotions</div>
 									</div>
-									<div class="col-md-5">
-										<div class="card-body">
-											<h5 class="card-title fw-bolder mt-4">GoldMine Battles</h5>
-											<p class="card-text">
-												Discover games and fight for huge wins! Follow the announcement of the
-												Battle to join in time! Share the prize pool up to 1 BTC
-											</p>
+								</a>
+							</li>
+							<li class="nav-item" role="presentation">
+								<a class="nav-link" data-bs-toggle="pill" href="#pills-nitroPromo" role="tab" aria-selected="false">
+									<div class="d-flex align-items-center">
+										<div class="tab-title">Nitro Promo</div>
+									</div>
+								</a>
+							</li>
+						</ul>
+						<div class="tab-content" id="pills-tabContent">
+							<!-- allPromotions Tab start -->
+							<div class="tab-pane fade show active" id="pills-allPromotions" role="tabpanel">
+
+								<div class="row justify-content-center g-4 pb-5">
+									<div class="col-lg-12">
+										<div class="card mt-4 raduis25 px-4 cp cardScale bg-transparent">
+											<div class="row g-0 align-items-center">
+												<div class="col-md-1">
+													<div class="cardNumbering">
+														1
+													</div>
+												</div>
+												<div class="col-md-7">
+													<div class="card-body">
+														<h5 class="card-title fw-bolder mt-4">Betclover Battles</h5>
+														<p class="card-text">
+															Discover games and fight for huge wins! Follow the announcement of the Battle to join in time! Share the prize pool up to 1 BTC
+														</p>
+													</div>
+												</div>
+												<div class="col-md-4 text-center">
+													<button class="btn bg-blue rounded-3 text-light px-4">Enter Now</button>
+												</div>
+											</div>
 										</div>
 									</div>
-									<div class="col-md-4">
-										<div class="promotionCard p-4 text-center">
-											<h4 class="cl-blue fw-bolder">Every Week</h4>
-											<small>Keep eyes on our social networks to catch the start</small>
+									<div class="col-lg-12">
+										<div class="card raduis25 px-4 cp cardScale bg-transparent">
+											<div class="row g-0 align-items-center">
+												<div class="col-md-1">
+													<div class="cardNumbering">
+														2
+													</div>
+												</div>
+												<div class="col-md-7">
+													<div class="card-body">
+														<h5 class="card-title fw-bolder mt-4">Betclover Battles</h5>
+														<p class="card-text">
+															Discover games and fight for huge wins! Follow the announcement of the Battle to join in time! Share the prize pool up to 1 BTC
+														</p>
+													</div>
+												</div>
+												<div class="col-md-4 text-center">
+													<button class="btn bg-blue rounded-3 text-light px-4">Enter Now</button>
+												</div>
+											</div>
 										</div>
 									</div>
 								</div>
-							</div>
 
+
+								<div class="text-center">
+									<h3 class="text-center cl-blue fw-bolder">New Promotions</h3>
+									<p class="text-center">Keep eyes on our social networks to catch the start</p>
+
+								</div>
+
+
+							</div>
+							<!-- allPromotions Tab end -->
+
+							<!-- nitroPromo Tab start -->
+							<div class="tab-pane fade" id="pills-nitroPromo" role="tabpanel">
+
+								<div class="row g-0 justify-content-between mt-4">
+									<div class="col-lg-8">
+										<div class="card-body pt-0">
+											<div>
+												<h3 class="fw-bolder mb-5 cl-blue">
+													In-House Daily Battle
+												</h3>
+		
+												<h1 class="cl-blue fw-bolder mt-5">$1,000</h1>
+												<div class="h6">
+													<span class="cl-blue">1000.00000</span>
+												</div>
+								
+												<div class="d-flex align-items-center">
+													<h6 class="me-2">Type of Battle:</h6>
+													<button class="btn bg-blue py-1 radius-10 btn-sm">Profit</button>
+												</div>
+		
+												<div class="d-flex align-items-center my-3">
+													<h6 class="me-2">Currencies:</h6>
+													<button class="btn bg-blue py-1 radius-10 btn-sm">All currencies</button>
+												</div>
+		
+												<div class="d-flex align-items-center mt-3">
+													<h6 class="me-2">Games:</h6>
+													<div>
+														<button class="btn bg-blue border py-1 radius-10 btn-sm text-white-50 mb-1" disabled>Circle</button>
+														<button class="btn bg-blue border py-1 radius-10 btn-sm text-white-50 mb-1" disabled>Crash</button>
+														<button class="btn bg-blue border py-1 radius-10 btn-sm text-white-50 mb-1" disabled>Dice</button>
+														<button class="btn bg-blue border py-1 radius-10 btn-sm text-white-50 mb-1" disabled>HiLo</button>
+														<button class="btn bg-blue border py-1 radius-10 btn-sm text-white-50 mb-1" disabled>Keno</button>
+														<button class="btn bg-blue border py-1 radius-10 btn-sm text-white-50 mb-1" disabled>Limbo</button>
+														<button class="btn bg-blue border py-1 radius-10 btn-sm text-white-50 mb-1" disabled>Mines</button>
+														<button class="btn bg-blue border py-1 radius-10 btn-sm text-white-50 mb-1" disabled>Triple</button>
+													</div>
+			
+														
+														
+												</div>
+											</div>
+										</div>
+									</div>
+
+									<div class="col-lg-4 nitroPromotionCard">
+										<h4 class="text-center cl-blue fw-bolder ttu py-3">Dashboard</i></h4>
+										
+										<div class="px-4 py-2 raduis25 ttu">
+											<h5 class="fw-bolder">Your place</h5>
+											<div class="cl-blue">01</div>
+										</div>
+										<div class="px-4 py-2 raduis25">
+											<h5 class="fw-bolder ttu">Your Profit</h5>
+											<div class="h6">
+												<span class="cl-blue">0.0000000000</span>
+											</div>
+										</div>
+										<div class=" px-4 py-2 raduis25">
+											<h5 class="fw-bolder ttu">Your current prize</h5>
+											<div class="h6">
+												<span class="cl-blue">0.0000000</span>
+											</div>
+										</div>
+									</div>
+									
+								</div>
+								
+							</div>
+							<!-- nitroPromo Tab end -->
 						</div>
 					</div>
+
 
 
 				</div>

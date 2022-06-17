@@ -156,6 +156,29 @@ input[type=number] {
     padding: 50px 0px;
 }
 
+.customTabs ul li a.nav-link.active {
+    border-radius: 2px !important;
+}
+.customTabs ul li a.nav-link {
+    border:1px solid var(--lightBlue);
+    margin: 0px 5px;
+}
+
+.cardNumbering{
+    border-radius: 50px;
+    background-color: var(--lightBlue);
+    color: var(--grayAll);
+    padding: 10px 25px;
+    font-size: 25px;
+    width: fit-content;
+}
+
+.nitroPromotionCard{
+    border-radius: 15px;
+    border: 2px solid var(--lightBlue);
+    
+}
+
 
 
 @media only screen and (max-width:768px) {
