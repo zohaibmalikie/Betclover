@@ -1,0 +1,28 @@
+.titleMain{
+    font-size: 50px;
+    font-weight: bolder;
+    line-height :60px;
+
+}
+
+.mainCarddailyTasks {
+    background: linear-gradient(180deg, #122F5E 0%, #102647 100%);
+border-radius: 15px;
+}
+.numberByNumber{
+    background: #1C4279;
+border-radius: 10px;
+}
+.minBetBonuses{
+    color: #6A87B3;
+
+}
+.dailstaskEndButtonCard{
+    background: #55657E;
+border: 1px solid #55657E;
+box-sizing: border-box;
+border-radius: 7px;
+}
+.mainCarddailyTasksImage{
+    margin-top: -68px;
+}

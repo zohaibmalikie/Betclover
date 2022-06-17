@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <!--favicon-->
+        <!-- <link rel="icon" href="assets/images/favicon-32x32.png" type="image/png" /> -->
+        <!--plugins-->
+        <link href="assets/plugins/simplebar/css/simplebar.css" rel="stylesheet" />
+        <link href="assets/plugins/perfect-scrollbar/css/perfect-scrollbar.css" rel="stylesheet" />
+        <link href="assets/plugins/metismenu/css/metisMenu.min.css" rel="stylesheet" />
+        <!-- loader-->
+        <link href="assets/css/pace.min.css" rel="stylesheet" />
+        <script src="assets/js/pace.min.js"></script>
+        <!-- Bootstrap CSS -->
+        <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
+        <link href="assets/css/app.css" rel="stylesheet" />
+        <link href="assets/css/icons.css" rel="stylesheet" />
+        <!-- Custom Css -->
+        <link href="assets/css/custom/style.css" rel="stylesheet" />
+        <link href="assets/css/custom/footer.css" rel="stylesheet" />
+        <link href="assets/css/custom/change.css" rel="stylesheet" />
+
+        <title>Betclover - Login</title>
+    </head>
+
+    <body class="bg-theme bg-theme2">
+        <!--wrapper-->
+        <div class="wrapper" id="navbarAppend">
+           
+            <!--start page wrapper -->
+            <div class="page-wrapper">
+                <div class="page-content">
+                    <div class="row justify-content-center">
+						<div class="col-lg-11 mt-4 bg-loginImg">   
+                            <div class="row g-0 justify-content-center ">
+                                <div class="col-lg-5">
+                                    <div class="card-body">
+                                        <div class="px-0 px-lg-4">
+                                            <ul class="nav nav-pills" role="tablist">
+                                                <li class="nav-item" role="presentation">
+                                                    <a class="nav-link active" data-bs-toggle="pill" href="#pills-login" role="tab" aria-selected="true">
+                                                        <div class="d-flex align-items-center">
+                                                            <div class="tab-title">Login</div>
+                                                        </div>
+                                                    </a>
+                                                </li>
+                                                <li class="nav-item" role="presentation">
+                                                    <a class="nav-link" data-bs-toggle="pill" href="#pills-signup" role="tab" aria-selected="false">
+                                                        <div class="d-flex align-items-center">
+                                                            <div class="tab-title">Signup</div>
+                                                        </div>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                            <div class="tab-content" id="pills-tabContent">
+                                                <!-- Login Tab start -->
+                                                <div class="tab-pane fade show active" id="pills-login" role="tabpanel">
+
+                                                    <form action="">
+                                                        <div class="mb-3 mt-4">
+                                                            <input type="text" class="form-control py-2 bg-transparent border border-dark" placeholder="Enter your email" />
+                                                        </div>
+                                                        <div class="mb-3">
+                                                            <div class="input-group border border-dark" id="show_hide_password">
+                                                                <input type="password" class="form-control border-end-0 bg-transparent" id="inputChoosePassword" placeholder="Enter your password" />
+                                                                <a href="javascript:;" class="input-group-text bg-transparent"><i class="bx bx-hide"></i></a>
+                                                            </div>
+                                                        </div>
+                                                        <div class="mb-3">
+                                                            <a href="#" class="cl-blue">Forgot Password ?</a>
+                                                        </div>
+                                                        <div class="mb-4">
+                                                            <button type="button" class="btn bg-blue py-2 text-white w-100">Log in</button>
+                                                        </div>
+                                                        <div class="mb-3">
+                                                            <small class="text-dark">Or Login with</small>
+                                                            <div class="social-icons-login pt-2">
+                                                                <div><i class="lni lni-app-store"></i></div>
+                                                                <div><i class="bx bxl-facebook-circle"></i></div>
+                                                                <div><i class="bx bxl-apple"></i></div>
+                                                                <div><i class="bx bxl-reddit"></i></div>
+                                                            </div>
+                                                        </div>
+                                                        <div>
+                                                            <small>Don't have an account yet? <a href="#"  data-bs-toggle="pill" href="#pills-signup" role="tab" class="cl-blue" onclick="loginSignupModal('signup')">Sign up</a></small>
+                                                        </div>
+                                                    </form>
+                                                </div>
+                                                <!-- Login Tab end -->
+            
+                                                <!-- signup Tab start -->
+                                                <div class="tab-pane fade" id="pills-signup" role="tabpanel">
+                                                    <form action="">
+                                                        <div class="mb-3 mt-4">
+                                                            <input type="text" class="form-control py-2 bg-transparent border border-dark" placeholder="Enter your email" />
+                                                        </div>
+                                                        <div class="mb-3">
+                                                            <div class="input-group border border-dark" id="show_hide_password1">
+                                                                <input type="password" class="form-control border-end-0 bg-transparent" id="inputChoosePassword1" placeholder="Enter your password" />
+                                                                <a href="javascript:;" class="input-group-text bg-transparent"><i class="bx bx-hide"></i></a>
+                                                            </div>
+                                                        </div>
+                                                        <div class="mb-3">
+                                                            <input type="text" class="form-control py-2 bg-transparent border border-dark" placeholder="Promo code (optional)" />
+                                                        </div>
+                                                        <div class="mb-3">
+                                                            <div class="form-check form-switch">
+                                                                <input class="form-check-input bg-blue" type="checkbox" id="flexSwitchCheckChecked" />
+                                                                <label class="form-check-label" for="flexSwitchCheckChecked">I confirm that I am 18 years old and I have read the <a href="#" class="cl-blue">Terms of Service</a> </label>
+                                                            </div>
+                                                        </div>
+                                                        <div class="mb-3">
+                                                            <div class="form-check form-switch">
+                                                                <input class="form-check-input bg-blue" type="checkbox" id="flexSwitchCheckChecked1" />
+                                                                <label class="form-check-label" for="flexSwitchCheckChecked1">Receive Email Promos</label>
+                                                            </div>
+                                                        </div>
+                                                        <div class="mb-4">
+                                                            <button type="button" class="btn bg-blue py-2 text-white w-100">Create account</button>
+                                                        </div>
+                                                        <div class="mb-3">
+                                                            <small class="text-dark">Or Signup with</small>
+                                                            <div class="social-icons-login pt-2">
+                                                                <div><i class="lni lni-app-store"></i></div>
+                                                                <div><i class="bx bxl-facebook-circle"></i></div>
+                                                                <div><i class="bx bxl-apple"></i></div>
+                                                                <div><i class="bx bxl-reddit"></i></div>
+                                                            </div>
+                                                        </div>
+                                                        <div>
+                                                            <small>Don't have an account yet? <a href="./login.html" class="cl-blue" onclick="loginSignupModal('login')">Login</a></small>
+                                                        </div>
+                                                    </form>
+                                                </div>
+                                                <!-- signup Tab end -->
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                           
+                        </div>
+                    </div>
+                    
+
+                </div>
+
+                <div id="footer"></div>
+            </div>
+            <!--end page wrapper -->
+
+            <!--start overlay-->
+            <div class="overlay toggle-icon"></div>
+            <!--end overlay-->
+
+            <!--Start Back To Top Button-->
+            <a href="javaScript:;" class="back-to-top"><i class="bx bxs-up-arrow-alt"></i></a>
+
+            <!--End Back To Top Button-->
+        </div>
+        <!--end wrapper-->
+
+      
+        <div id="modalsAppend"></div>
+
+        <!-- Bootstrap JS -->
+        <script src="assets/js/bootstrap.bundle.min.js"></script>
+        <!--plugins-->
+        <script src="assets/js/jquery.min.js"></script>
+        <script src="./assets/js/custom/navbar.js"></script>
+        <script src="./assets/js/custom/modals.js"></script>
+        <script src="assets/plugins/simplebar/js/simplebar.min.js"></script>
+        <script src="assets/plugins/metismenu/js/metisMenu.min.js"></script>
+        <script src="assets/plugins/perfect-scrollbar/js/perfect-scrollbar.js"></script>
+        <!--app JS-->
+        <script src="assets/js/app.js"></script>
+
+		<script>
+				$(document).ready(function () {
+					$("#show_hide_password a").on('click', function (event) {
+						event.preventDefault();
+						if ($('#show_hide_password input').attr("type") == "text") {
+							$('#show_hide_password input').attr('type', 'password');
+							$('#show_hide_password i').addClass("bx-hide");
+							$('#show_hide_password i').removeClass("bx-show");
+						} else if ($('#show_hide_password input').attr("type") == "password") {
+							$('#show_hide_password input').attr('type', 'text');
+							$('#show_hide_password i').removeClass("bx-hide");
+							$('#show_hide_password i').addClass("bx-show");
+						}
+					});
+					$("#show_hide_password1 a").on('click', function (event) {
+						event.preventDefault();
+						if ($('#show_hide_password1 input').attr("type") == "text") {
+							$('#show_hide_password1 input').attr('type', 'password');
+							$('#show_hide_password1 i').addClass("bx-hide");
+							$('#show_hide_password1 i').removeClass("bx-show");
+						} else if ($('#show_hide_password1 input').attr("type") == "password") {
+							$('#show_hide_password1 input').attr('type', 'text');
+							$('#show_hide_password1 i').removeClass("bx-hide");
+							$('#show_hide_password1 i').addClass("bx-show");
+						}
+					});
+				});
+		
+		</script>
+    </body>
+</html>

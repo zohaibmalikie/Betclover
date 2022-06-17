@@ -1,0 +1,273 @@
+:root{
+    /* --lightBlue: #2283F6; */
+    --lightBlue: #4DB86B;
+    --lightPink: #ED1D49;
+    --lightYellow: #FFB636;
+    --lightBlack: #161F2C;
+    --lightAll: #fff;
+    --darkAll:#000;
+    --grayAll:#E7E7E7;
+
+}
+.metismenu .has-nextWindow:after {
+    position: absolute;
+    content: "\eb47";
+    font-size: 18px;
+    right: 15px;
+    transition: all .3s ease-out;
+}
+
+.ttu {
+    text-transform: uppercase;
+}
+.roundedCustomChild{
+    background: #202A39;
+    border-radius: 25px;
+    margin-left: 40px;
+}
+.f-11 {
+    font-size: 11px;
+}
+.roundedCustomChild div{
+    border-radius: 25px;
+    padding: 5px 15px;
+    cursor: pointer;
+}
+.roundedCustomChild div img{
+    width: 14px;
+}
+
+.roundedCustomChild div.active,
+.roundedCustomChild div:hover,
+.page-link:focus,
+.page-link:hover
+ {
+    background: var(--lightBlue);
+}
+
+
+.bg-blue{
+    background-color: var(--lightBlue);
+}
+
+.cl-blue{
+    color: var(--lightBlue);
+}
+.f-12{
+    font-size: 12px;
+}
+.f-13{
+    font-size: 13px !important;
+}
+.cl-yellow{
+    color: var(--lightYellow);
+}
+.desc__color {
+    color: #55657E;
+}
+.bg-pink{
+    background-color: var(--lightPink);
+}
+.pink,
+.cl-pink {
+    color: var(--lightPink);
+}
+.bg-lightBlack{
+    background-color: var(--lightBlack);
+}
+
+.social-icons-login{
+    display: flex;
+}
+.social-icons-login div{
+    background-color: var(--lightAll);
+    color: var(--lightBlue);
+    margin-right: 10px;
+    padding: 0px 10px;
+    border-radius:5px;
+    display: flex;
+    align-items: center;
+}
+
+.social-icons-login div i{
+    font-size: 30px;
+}
+
+
+
+.social-icons-login div:hover{
+    opacity: .7;
+    cursor: pointer;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: white;
+    background-color: var(--lightBlue);
+    border-radius: 25px;
+}
+
+.promotionCard{
+    background: rgba(34, 125, 238, 0.12);
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.ttu{
+    text-transform: uppercase;
+}
+
+.cardGradient{
+    background: linear-gradient(89.88deg, #172134 47.69%, rgba(23, 33, 52, 0) 107.53%);
+}
+
+.modalGradient{
+    background: linear-gradient(180deg, #1D256D 0%, #111E37 100%);
+}
+.rankingCardGradient{
+    background: linear-gradient(180deg, #0A3361 0%, #1C6FD2 100%);
+}
+
+
+.cp{
+    cursor: pointer;
+}
+
+.cardScale:hover{
+    transform: scale(1.05);
+    transition: .5s;
+}
+
+.raduis25{
+    border-radius: 25px;
+}
+
+.stackingBitcoin{
+    width: 25px;
+}
+
+.w-125{
+    width: 125px;
+}
+
+.basketImage{
+    transform: scale(1.2);
+    position: relative;
+    right: -30px;
+}
+
+.referralCardBottom{
+    background: rgba(255, 255, 255, 0.08);
+    border-radius: 16px 16px 0px 0px;
+    position: absolute;
+    bottom: -10px;
+    width: 100%;
+    padding: 3px 0px;
+}
+
+.box1{
+    background: linear-gradient(270deg, #5B2287 0%, #3438A8 100%);
+}
+.box2{
+    background: linear-gradient(270deg, #22876F 0%, #52A834 100%);
+}
+
+.mainBannerCashback {
+    background: linear-gradient(93.26deg, #00376F 22.36%, #001732 106.77%);
+border-radius: 14px;
+}
+.gradientTwoCashBack{
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 14px;
+}
+.gradientThreeCashBack{
+    background: #111923;
+    border-radius: 14px;
+}
+.rank-card {
+    background: url('../../images/cash-back/rank-card-bg.637cc05.svg') no-repeat;
+    background-size: cover;
+    max-width: 15%;
+    flex: 0 0 15%;
+    height: 222px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.rank-card__img {
+    position: absolute;
+    top: 15px;
+    left: 50%;
+    transform: translate(-50%);
+    height: 80px;
+    width: 80px;
+}
+
+.rankSystemCarousel {
+    background: url('../../images/rankSystem/carousel.png') no-repeat;
+    min-height: 222px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    background-size: cover;
+    background-position-x: center;
+    padding: 20px 0;
+
+}
+
+.rankSystemCarousel img {
+    position: relative;
+    top: 0px !important;
+    left: 0% !important;
+    height: 80px;
+    width: 80px;
+}
+
+
+@media only screen and (max-width:768px) {
+    .roundedCustomChild,
+    .mobileDisplayNone
+    {
+        display: none !important;
+    }
+    
+    .mobileImageTopBar
+    {
+        display: block !important;
+    }
+
+    .topbar .navbar {
+        padding-left: 10px !important;
+        padding-right: 10px !important;
+    }
+}
+.accordion-button::after {
+    flex-shrink: 0;
+    width: 1rem;
+    height: 1rem;
+    margin-left: auto;
+    content: "";
+    background-image: url('../../images/icons/uper.png');
+    background-repeat: no-repeat;
+    background-size: 1rem;
+    transition: transform .2s ease-in-out;
+}
+.accordion-button {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 1.5rem 1.25rem;
+    color: #ffffff;
+    background-color: transparent;
+    border: 0px !important;
+    border-top: 1px solid #202A39 !important;
+}
+.accordion-button:not(.collapsed) {
+    color: #ffffff;
+    background-color: transparent !important;
+}

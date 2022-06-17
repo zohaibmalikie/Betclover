@@ -1,0 +1,35 @@
+<svg width="152" height="212" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <g clip-path="url(#a)">
+        <path d="M0 198a14 14 0 0 0 14 14h124a14 14 0 0 0 14-14V56.5a14 14 0 0 0-12.56-13.93l-62-6.42a14 14 0 0 0-2.88 0l-62 6.42A14 14 0 0 0 0 56.49V198Z"
+              fill="url(#b)"/>
+        <path opacity=".4"
+              d="m65.86-53 6.83 96.86-30.77-92.22-19.7 7.95 43.75 87.77L.94-26.46-14.1-11.59l74.2 63.71L-27.7 8.4l-8.25 19.38 93.82 31.51L-41 52.5v21.02l98.1-6.75-93.4 30.38 8.05 19.46 88.91-43.2-74.77 64.2L.94 152.45l64.54-73.27-44.29 86.7 19.63 8.13L72.74 81.4 65.86 179h21.28l-6.83-96.86 30.77 92.22 19.71-7.95-43.76-87.77 65.03 73.82 15.05-14.87-74.2-63.71 87.8 43.72 8.25-19.38-93.82-31.51L194 73.5V52.49l-98.11 6.75 93.4-30.38-8.04-19.46-88.91 43.2 74.77-64.2-15.05-14.86-64.54 73.27 44.29-86.7-19.63-8.13-31.92 92.61L87.14-53H65.86Z"
+              fill="url(#c)"/>
+        <g filter="url(#d)">
+            <ellipse cx="76" cy="69.5" rx="32" ry="23.5" fill="#2283F6"/>
+        </g>
+    </g>
+    <defs>
+        <radialGradient id="c" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse"
+                        gradientTransform="matrix(62.1745 0 0 45.0796 76.83 63.07)">
+            <stop stop-color="#16ABFF"/>
+            <stop offset=".79" stop-color="#25B1FF" stop-opacity=".1"/>
+            <stop offset="1" stop-color="#00A3FF" stop-opacity="0"/>
+        </radialGradient>
+        <linearGradient id="b" x1="76" y1="212" x2="76" y2="36" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#123258" stop-opacity="0"/>
+            <stop offset=".36" stop-color="#123258" stop-opacity=".23"/>
+            <stop offset=".57" stop-color="#123258" stop-opacity=".47"/>
+            <stop offset="1" stop-color="#184070"/>
+        </linearGradient>
+        <clipPath id="a">
+            <path fill="#fff" d="M0 0h152v212H0z"/>
+        </clipPath>
+        <filter id="d" x="-5" y="-3" width="162" height="145" filterUnits="userSpaceOnUse"
+                color-interpolation-filters="sRGB">
+            <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+            <feBlend in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+            <feGaussianBlur stdDeviation="24.5" result="effect1_foregroundBlur_2613:77580"/>
+        </filter>
+    </defs>
+</svg>

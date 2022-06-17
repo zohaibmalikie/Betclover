@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <!--favicon-->
+        <!-- <link rel="icon" href="assets/images/favicon-32x32.png" type="image/png" /> -->
+        <!--plugins-->
+        <link href="assets/plugins/simplebar/css/simplebar.css" rel="stylesheet" />
+        <link href="assets/plugins/perfect-scrollbar/css/perfect-scrollbar.css" rel="stylesheet" />
+        <link href="assets/plugins/metismenu/css/metisMenu.min.css" rel="stylesheet" />
+        <!-- loader-->
+        <link href="assets/css/pace.min.css" rel="stylesheet" />
+        <script src="assets/js/pace.min.js"></script>
+        <!-- Bootstrap CSS -->
+        <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
+        <link href="assets/css/app.css" rel="stylesheet" />
+        <link href="assets/css/icons.css" rel="stylesheet" />
+        <!-- Custom Css -->
+        <link href="assets/css/custom/style.css" rel="stylesheet" />
+        <link href="assets/css/custom/footer.css" rel="stylesheet" />
+		<link href="assets/css/custom/change.css" rel="stylesheet" />
+
+        <title>Betclover</title>
+    </head>
+
+    <body class="bg-theme bg-theme2">
+        <!--wrapper-->
+        <div class="wrapper" id="navbarAppend">
+            <!--start page wrapper -->
+            <div class="page-wrapper">
+                <div class="page-content">
+                    <div>
+                        <div class="row justify-content-center">
+                            <div class="col-lg-10 mt-4">
+                                <div class="row mx-0 g-4 align-items-center">
+                                    <div class="col-12">
+                                        <h4 class="fw-bolder">All Games</h4>
+                                    </div>
+                                    <div class="customColumn active">
+                                        <img src="./assets/images/allgames/game.png" alt="game" class="mb-2" />
+                                        <h6 class="text-white fw-light mb-0">Lobby</h6>
+                                        <small class="text-light">3429</small>
+                                    </div>
+                                    <div class="customColumn">
+                                        <img src="./assets/images/allgames/home.png" alt="game" class="mb-2" />
+                                        <h6 class="text-white fw-light mb-0">In-House</h6>
+                                        <small class="text-white-50">13</small>
+                                    </div>
+                                    <div class="customColumn">
+                                        <img src="./assets/images/allgames/number.png" alt="number" class="mb-2" />
+                                        <h6 class="text-white fw-light mb-0">Slots</h6>
+                                        <small class="text-white-50">3334</small>
+                                    </div>
+                                    <div class="customColumn">
+                                        <img src="./assets/images/allgames/person.png" alt="person" class="mb-2" />
+                                        <h6 class="text-white fw-light mb-0">Live</h6>
+                                        <small class="text-white-50">35</small>
+                                    </div>
+                                    <div class="customColumn">
+                                        <img src="./assets/images/allgames/cards.png" alt="cards" class="mb-2" />
+                                        <h6 class="text-white fw-light mb-0">Table</h6>
+                                        <small class="text-white-50">47</small>
+                                    </div>
+                                </div>
+
+                                <div class="my-4">
+                                    <ul class="nav nav-pills" role="tablist">
+                                        <li class="nav-item" role="presentation">
+                                            <a class="nav-link active" data-bs-toggle="pill" href="#pills-all" role="tab" aria-selected="true">
+                                                <div class="d-flex align-items-center">
+                                                    <div class="tab-title">All</div>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li class="nav-item" role="presentation">
+                                            <a class="nav-link" data-bs-toggle="pill" href="#pills-new" role="tab" aria-selected="false">
+                                                <div class="d-flex align-items-center">
+                                                    <div class="tab-title">New</div>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li class="nav-item" role="presentation">
+                                            <a class="nav-link" data-bs-toggle="pill" href="#pills-battle" role="tab" aria-selected="false">
+                                                <div class="d-flex align-items-center">
+                                                    <div class="tab-title">Battle</div>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li class="nav-item" role="presentation">
+                                            <a class="nav-link" data-bs-toggle="pill" href="#pills-top" role="tab" aria-selected="false">
+                                                <div class="d-flex align-items-center">
+                                                    <div class="tab-title">Top</div>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li class="nav-item" role="presentation">
+                                            <a class="nav-link" data-bs-toggle="pill" href="#pills-hot" role="tab" aria-selected="false">
+                                                <div class="d-flex align-items-center">
+                                                    <div class="tab-title">Hot</div>
+                                                </div>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <div>
+                                    <div class="row">
+                                        <div class="col-9">
+                                            <div class="d-flex border border-light rounded p-2">
+                                                <i class="bx bx-search h6 mb-0"></i>
+                                                <input type="text" class="bg-transparent ps-3 border-0 text-white gameInput" />
+                                            </div>
+                                        </div>
+
+                                        <div class="col-3">
+                                            <select name="" class="selectOption2 w-100 bg-transparent border border-light rounded text-white" id="">
+                                                <option value="" disabled selected>Select provider</option>
+                                                <option value="Amatic">Amatic</option>
+                                                <option value="BGaming">BGaming</option>
+                                                <option value="Canhab">Canhab</option>
+                                                <option value="Gaimne">Gaimne</option>
+                                                <option value="Hyperty">Hyperty</option>
+                                                <option value="Amatic">Amatic</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="row mt-4">
+                                    <div class="col-12 px-0">
+                                        <div class="tab-content" id="pills-tabContent">
+                                            <!-- all Tab start -->
+                                            <div class="tab-pane fade show active" id="pills-all" role="tabpanel">
+                                                <div class="row mx-0 g-4">
+                                                    <div class="col-6 col-md-4 col-lg-2 gameHoverMain ">
+                                                        <img src="./assets/images/allgames/games/1.png" alt="" class="w-100" />
+                                                        <div class="gameHoverBlur"> </div>
+                                                        <div class="gameHoverSub">
+                                                            <div class="text-white-50 f-13">Tower</div>
+                                                            <div class="playBtn"><i class="bx bx-play"></i></div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-6 col-md-4 col-lg-2">
+                                                        <img src="./assets/images/allgames/games/2.png" alt="" class="w-100" />
+                                                    </div>
+                                                    <div class="col-6 col-md-4 col-lg-2"><img src="./assets/images/allgames/games/3.png" alt="" class="w-100" /></div>
+                                                    <div class="col-6 col-md-4 col-lg-2"><img src="./assets/images/allgames/games/4.png" alt="" class="w-100" /></div>
+                                                    <div class="col-6 col-md-4 col-lg-2"><img src="./assets/images/allgames/games/5.png" alt="" class="w-100" /></div>
+                                                    <div class="col-6 col-md-4 col-lg-2"><img src="./assets/images/allgames/games/6.png" alt="" class="w-100" /></div>
+                                                    <div class="col-6 col-md-4 col-lg-2"><img src="./assets/images/allgames/games/7.png" alt="" class="w-100" /></div>
+                                                    <div class="col-6 col-md-4 col-lg-2"><img src="./assets/images/allgames/games/8.png" alt="" class="w-100" /></div>
+                                                    <div class="col-6 col-md-4 col-lg-2"><img src="./assets/images/allgames/games/9.png" alt="" class="w-100" /></div>
+                                                    <div class="col-6 col-md-4 col-lg-2"><img src="./assets/images/allgames/games/10.png" alt="" class="w-100" /></div>
+                                                    <div class="col-6 col-md-4 col-lg-2"><img src="./assets/images/allgames/games/11.png" alt="" class="w-100" /></div>
+                                                    <div class="col-6 col-md-4 col-lg-2"><img src="./assets/images/allgames/games/12.png" alt="" class="w-100" /></div>
+                                                    <div class="col-6 col-md-4 col-lg-2"><img src="./assets/images/allgames/games/13.png" alt="" class="w-100" /></div>
+                                                    <div class="col-6 col-md-4 col-lg-2"><img src="./assets/images/allgames/games/14.png" alt="" class="w-100" /></div>
+                                                    <div class="col-6 col-md-4 col-lg-2"><img src="./assets/images/allgames/games/15.png" alt="" class="w-100" /></div>
+                                                    <div class="col-6 col-md-4 col-lg-2"><img src="./assets/images/allgames/games/16.png" alt="" class="w-100" /></div>
+                                                    <div class="col-6 col-md-4 col-lg-2"><img src="./assets/images/allgames/games/17.png" alt="" class="w-100" /></div>
+                                                    <div class="col-6 col-md-4 col-lg-2"><img src="./assets/images/allgames/games/18.png" alt="" class="w-100" /></div>
+                                                    <div class="col-6 col-md-4 col-lg-2"><img src="./assets/images/allgames/games/19.png" alt="" class="w-100" /></div>
+                                                    <div class="col-6 col-md-4 col-lg-2"><img src="./assets/images/allgames/games/20.png" alt="" class="w-100" /></div>
+                                                    <div class="col-6 col-md-4 col-lg-2"><img src="./assets/images/allgames/games/21.png" alt="" class="w-100" /></div>
+                                                    <div class="col-6 col-md-4 col-lg-2"><img src="./assets/images/allgames/games/22.png" alt="" class="w-100" /></div>
+                                                    <div class="col-6 col-md-4 col-lg-2"><img src="./assets/images/allgames/games/23.png" alt="" class="w-100" /></div>
+                                                </div>
+
+                                                <div class="text-center">
+                                                    <button class="btn btn-secondary btn-sm mt-5">Load more</button>
+                                                </div>
+                                            </div>
+                                            <!-- all Tab end -->
+
+                                            <!-- new Tab start -->
+                                            <div class="tab-pane fade" id="pills-new" role="tabpanel">
+                                                No data
+                                            </div>
+                                            <!-- new Tab end -->
+
+                                            <!-- battle Tab start -->
+                                            <div class="tab-pane fade" id="pills-battle" role="tabpanel">
+                                                No data
+                                            </div>
+                                            <!-- battle Tab end -->
+
+                                            <!-- top Tab start -->
+                                            <div class="tab-pane fade" id="pills-top" role="tabpanel">
+                                                No data
+                                            </div>
+
+                                            <!-- hot Tab start -->
+                                            <div class="tab-pane fade" id="pills-hot" role="tabpanel">
+                                                No data
+                                            </div>
+                                            <!-- hot Tab end -->
+                                            <!-- top Tab end -->
+                                        </div>
+                                    </div>
+                                </div>
+
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--end page wrapper -->
+
+            <!--start overlay-->
+            <div class="overlay toggle-icon"></div>
+            <!--end overlay-->
+
+            <!--Start Back To Top Button-->
+            <a href="javaScript:;" class="back-to-top"><i class="bx bxs-up-arrow-alt"></i></a>
+
+            <!--End Back To Top Button-->
+            <div id="footer"></div>
+
+        </div>
+        <!--end wrapper-->
+
+        <!--Login Modal start-->
+        <div class="modal fade" id="calculator" tabindex="-1" aria-hidden="true" data-bs-keyboard="false" data-bs-backdrop="static">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content modalGradient raduis25">
+                    <div class="modal-header border-bottom-0 justify-content-end">
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body border-bottom-0 text-white pb-5 pt-0 px-4">
+						<div>
+							<h2 class="text-white fw-bolder">Estimated payout</h2>
+							<p class="text-white-50">Calculate your profit from the BFG tokens you have! Enter the number in the field and see the estimated payouts in each cryptocurrency for different periods. The more tokens - the higher is profit.</p>
+						</div>
+						<div>
+							<button class="btn bg-blue text-white">100K</button>
+							<button class="btn btn-secondary text-white">500K</button>
+							<button class="btn btn-secondary text-white">1M</button>
+							<button class="btn btn-secondary text-white">10M</button>
+						</div>
+						<div class="my-3">
+							<div class="text-end text-white-50">$1,726.7580</div>
+							<div class="d-flex border border-light rounded p-2">
+								<img src="./assets/images/farming/navicon.png" alt="navicon">
+								<input type="number" class="bg-transparent ps-3 border-0 text-white gameInput" placeholder="100000">
+							</div>
+						</div>
+
+						<div class="mt-4">
+							<table class="table mb-0 table-hover">
+								<thead>
+									<tr class="text-white-50">
+										<th scope="col">In a day</th>
+										<th scope="col">Per month</th>
+										<th scope="col">Per quarter</th>
+										<th scope="col">Per year</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<th scope="row">
+											<img src="./assets/images/coins/1.png" alt="">
+											<span class="ms-3">0.00001291</span>
+										</th>
+										<td>0.00038756</td>
+										<td>0.00116269</td>
+										<td>0.00471537</td>
+									</tr>
+									<tr>
+										<th scope="row">
+											<img src="./assets/images/coins/2.png" alt="">
+											<span class="ms-3">0.00001291</span>
+										</th>
+										<td>0.00038756</td>
+										<td>0.00116269</td>
+										<td>0.00471537</td>
+									</tr>
+									<tr>
+										<th scope="row">
+											<img src="./assets/images/coins/3.png" alt="">
+											<span class="ms-3">0.00001291</span>
+										</th>
+										<td>0.00038756</td>
+										<td>0.00116269</td>
+										<td>0.00471537</td>
+									</tr>
+									<tr>
+										<th scope="row">
+											<img src="./assets/images/coins/4.png" alt="">
+											<span class="ms-3">0.00001291</span>
+										</th>
+										<td>0.00038756</td>
+										<td>0.00116269</td>
+										<td>0.00471537</td>
+									</tr>
+									<tr>
+										<th scope="row">
+											<img src="./assets/images/coins/5.png" alt="">
+											<span class="ms-3">0.00001291</span>
+										</th>
+										<td>0.00038756</td>
+										<td>0.00116269</td>
+										<td>0.00471537</td>
+									</tr>
+								</tbody>
+								<tr>
+									<th scope="row" colspan="4" class="text-white-50">
+										Total in USD
+									</th>
+								</tr>
+
+								<tfoot>
+									<tr>
+										<th scope="row" class="border-0">
+											<img src="./assets/images/coins/6.png" alt="">
+											<span class="ms-3">0.00001291</span>
+										</th>
+										<td class="border-0">0.00038756</td>
+										<td class="border-0">0.00116269</td>
+										<td class="border-0">0.00471537</td>
+									</tr>
+								</tfoot>
+							</table>
+						</div>
+
+						<div class="mt-4">
+							<button class="btn bg-pink text-white w-100">Buy BFG</button>
+						</div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Login Modal end -->
+
+        <div id="modalsAppend"></div>
+
+        <!-- Bootstrap JS -->
+        <script src="assets/js/bootstrap.bundle.min.js"></script>
+        <!--plugins-->
+        <script src="assets/js/jquery.min.js"></script>
+        <script src="./assets/js/custom/navbar.js"></script>
+        <script src="./assets/js/custom/modals.js"></script>
+        <script src="assets/plugins/simplebar/js/simplebar.min.js"></script>
+        <script src="assets/plugins/metismenu/js/metisMenu.min.js"></script>
+        <script src="assets/plugins/perfect-scrollbar/js/perfect-scrollbar.js"></script>
+        <!--app JS-->
+        <script src="assets/js/app.js"></script>
+    </body>
+</html>

@@ -1,0 +1,224 @@
+.customColumn {
+    flex: 0 0 auto;
+    width: 20%;
+    /* background: linear-gradient(180deg, #0A0E15 0%, #0F1A29 100%); */
+    padding: 20px 10px;
+    text-align: center;
+    border-radius: 25px;
+}
+.customColumn.active,
+.customColumn:hover  {
+    /* background: linear-gradient(180deg, #0D131C 0%, #324D76 100%) !important; */
+}
+
+.customColumn2{
+    flex: 0 0 auto;
+    width: 20%;
+    margin-top: 15px;
+}
+
+.gameInput
+{
+    width: 95%;
+}
+.gameInput:focus-visible,
+.gameInput:focus
+{
+    border: none !important;
+    outline: none !important;
+    outline: -webkit-focus-ring-color auto 0px !important;
+}
+
+.select2-container--default .select2-selection--single {
+    background-color: transparent !important;
+    border: 1px solid #aaa;
+    border-radius: 4px;
+}
+.select2-container--default .select2-selection--single .select2-selection__rendered {
+    color: white !important;
+    line-height: 36px;
+}
+
+.select2-search__field{
+    background-color: transparent !important;
+    color: #fff !important;
+}
+
+.select2-container,
+.select2-selection.select2-selection--single{
+    height: 100% !important;
+}
+
+.f-18{
+    font-size: 18px !important;
+}
+
+.accordion-button{
+    text-align: start !important;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+.wsnw{
+    white-space: nowrap;
+}
+
+.accordion-button::after {
+    background-image: url(../../images/icons/plus.png);
+    filter: contrast(1);
+}
+
+.accordion-button:not(.collapsed)::after {
+    background-image: url(../../images/icons/minus.png);
+    filter: contrast(1);
+    transform: rotate(180deg);
+}
+
+.customAccordinBg{
+    background: #19212B;
+    display: flex;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.overFolwAuto{
+    overflow-x: auto;
+}
+
+.gameHoverMain{
+    cursor: pointer;
+    position: relative;
+    border-radius: 14px;
+    overflow: hidden;
+    cursor: pointer;
+    display: block;
+    -webkit-transform: translateZ(0);
+    -webkit-perspective: 1000;
+    padding: 0px 10px;
+}
+.gameHoverMain:hover .gameHoverBlur{
+    filter: blur(3px);
+}
+.gameHoverMain:hover .gameHoverSub{
+    opacity: 1;
+}
+.gameHoverSub{
+    background-color: rgba(27,34,51,.8);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    opacity: 0;
+    z-index: 1;
+    padding: 19px 10px 13px;
+    transition: opacity .1s ease-in-out;
+    -webkit-transform: translateZ(0);
+    -webkit-perspective: 1000;
+    transform: translateZ(1px);
+    width: 100%;
+
+}
+
+.playBtn{
+    width: calc(40% + 15px);
+    font-size: 35px;
+    background-color: #ed1d49;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.cl-customGray{
+    color:var(--grayAll);
+}
+
+.bg-loginImg{
+    background-image: url('../../images/login-images/bgImg.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 25px;
+    padding: 50px 0px;
+}
+
+
+
+@media only screen and (max-width:768px) {
+    .customColumn {
+        width: 100%;
+    } 
+    .customColumn2 {
+        width: 50%;
+    } 
+    .mobile-radius{
+        border-radius: 25px;
+    }
+    .mobileFlex-direction{
+        flex-direction: column-reverse;
+    }
+    .mobileDisplayNone{
+       display: none;
+    }
+    
+    .rotateImg{
+        text-align: center;
+    }
+    .rotateImg img{
+        transform: rotate(90deg);
+    }
+    .basketImage {
+        transform: scale(1) !important;
+        position: relative !important;
+        right: 0px !important;
+    }
+    .farmingFooter,
+    .farmingFooter div.second,
+    .mobileColumn{
+        flex-direction: column;
+    }
+    .farmingFooter div.second{
+        margin-top: 10px
+    }
+    .farmingTopBtn{
+        font-size: 9px;
+    }
+
+    .nav-link {
+        padding: 0.3rem .5rem;
+        font-size: 12px;
+    }
+    
+    .rank-card{
+        max-width: 48%;
+        flex: 0 0 48%;
+    }
+
+    .right-text{
+        text-align: left !important;
+    }
+
+    .livePageMobile{
+        padding: 10px !important;
+
+    }
+    .livePageMobile button{
+        margin-top: 10px !important;
+
+    }
+
+}
