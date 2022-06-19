@@ -75,12 +75,12 @@ input[type=number] {
 
 .accordion-button::after {
     background-image: url(../../images/icons/plus.png);
-    filter: contrast(1);
+    filter: invert(1);
 }
 
 .accordion-button:not(.collapsed)::after {
     background-image: url(../../images/icons/minus.png);
-    filter: contrast(1);
+    filter: invert(1);
     transform: rotate(180deg);
 }
 
@@ -156,6 +156,15 @@ input[type=number] {
     padding: 50px 0px;
 }
 
+.aboutBgImage{
+    background-image: url('../../images/GMB-team/bg.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 25px;
+    padding: 20px;
+}
+
 .customTabs ul li a.nav-link.active {
     border-radius: 2px !important;
 }
@@ -179,6 +188,17 @@ input[type=number] {
     
 }
 
+.radius-25{
+    border-radius: 25px  !important;
+}
+
+@media (min-width: 992px){
+    .custom-column-2 {
+        flex: 0 0 auto;
+        width: 20%;
+    }
+
+}
 
 
 @media only screen and (max-width:768px) {
