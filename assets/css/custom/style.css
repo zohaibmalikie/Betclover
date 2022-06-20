@@ -264,10 +264,19 @@ border-radius: 14px;
     padding: 1.5rem 1.25rem;
     color: var(--lightBlue);
     background-color: transparent;
-    border: 0px !important;
-    border-top: 1px solid var(--lightBlue) !important;
+    border: 1px solid var(--lightBlue) !important;
+    min-height: 87.5px !important;
 }
 .accordion-button:not(.collapsed) {
     color: var(--lightBlue);
     background-color: transparent !important;
+    border-bottom: 0px !important;
+}
+
+.accordion-body {
+    border: 1px solid var(--lightBlue) !important;
+    border-top  : 0px !important;
+}
+.accordion-collapse {
+    border-width: 0 0px !important;
 }

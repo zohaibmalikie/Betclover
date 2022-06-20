@@ -192,6 +192,12 @@ input[type=number] {
     border-radius: 25px  !important;
 }
 
+.customraduis25{
+    border-bottom-left-radius: 250px !important;
+    border-top-right-radius: 250px !important;
+    border-radius: 25px;
+}
+
 @media (min-width: 992px){
     .custom-column-2 {
         flex: 0 0 auto;

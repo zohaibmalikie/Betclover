@@ -70,7 +70,7 @@ $('#navbarAppend').prepend(`
         </li>
 
         <li>
-            <a href="#">
+            <a href="./dailytasks.html">
                 <div class="menu-title">Bonuses</div>
             </a>
         </li>
