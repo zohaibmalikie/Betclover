@@ -148,6 +148,9 @@
 .w-125{
     width: 125px;
 }
+.w-250{
+    width: 250px;
+}
 
 .basketImage{
     transform: scale(1.2);

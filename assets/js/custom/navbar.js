@@ -70,7 +70,7 @@ $('#navbarAppend').prepend(`
         </li>
 
         <li>
-            <a href="./dailytasks.html">
+            <a href="./bonus.html">
                 <div class="menu-title">Bonuses</div>
             </a>
         </li>
@@ -88,7 +88,7 @@ $('#navbarAppend').prepend(`
         </li>
 
         <li>
-            <a href="#">
+            <a href="./games.html">
                 <div class="menu-title">Games</div>
             </a>
         </li>
@@ -106,21 +106,23 @@ $('#navbarAppend').prepend(`
         </li>
 
         <li>
-            <a href="#">
+            <a href="./megaRoulette.html">
                 <div class="menu-title">Mega Roulette</div>
             </a>
         </li>
         
-
         <li>
-            <a href="javascript:;" class="has-arrow">
-                <div class="menu-title">About</div>
+            <a href="./token.html">
+                <div class="menu-title">About Token</div>
             </a>
-            <ul>
-                <li><a href="./GMB-Token.html">GMB Token</a></li>
-                <li><a href="./GMB-Team.html">Gold Mine Team</a></li>
-            </ul>
         </li>
+        
+        <li>
+            <a href="./team.html">
+                <div class="menu-title">About Team</div>
+            </a>
+        </li>
+        
     </ul>
     <!--end navigation-->
 </div>
