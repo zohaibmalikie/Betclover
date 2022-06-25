@@ -198,6 +198,15 @@ input[type=number] {
     border-radius: 25px;
 }
 
+.sportTabs li a.nav-link{
+    background-color: #212529;
+    color: white;
+    border-radius: 25px;
+    width: 100px;
+    text-align: center;
+    margin:0px 2px ;
+}
+
 @media (min-width: 992px){
     .custom-column-2 {
         flex: 0 0 auto;

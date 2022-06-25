@@ -151,18 +151,18 @@ $('#navbarAppend').prepend(`
                         <a class="nav-link dropdown-toggle dropdown-toggle-nocaret position-relative" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                             <img src="./assets/images/message.png" alt="Message Image" width="30"/>
                         </a>
-                        <div class="dropdown-menu dropdown-menu-end">
+                        <div class="dropdown-menu dropdown-menu-end bg-white">
                             <a href="javascript:;">
-                                <div class="msg-header">
+                                <div class="msg-header bg-white">
                                     <div>
-                                        <span>6079</span>
-                                        <select class="ms-3 bg-transparent text-white py-1 px-3 rounded">
+                                        <span class="cl-blue">6079</span>
+                                        <select class="ms-3 bg-blue text-white py-1 px-3 rounded">
                                             <option value="english">English</option>
                                         </select>
                                     </div>
 
                                     <div>
-                                        <i class="bx bx-error-circle f-18"></i>
+                                        <i class="bx bx-error-circle f-18 cl-blue"></i>
                                     </div>
 
                                 </div>
@@ -173,7 +173,7 @@ $('#navbarAppend').prepend(`
                                         <div class="user-online">
                                             <img src="https://via.placeholder.com/110x110" class="msg-avatar" alt="user avatar" />
                                         </div>
-                                        <div class="flex-grow-1">
+                                        <div class="flex-grow-1 bg-blue p-2 radius-15">
                                             <h6 class="msg-name">Johnny Seitz <span class="msg-time float-end">5 days ago</span></h6>
                                             <p class="msg-info">All the Lorem Ipsum generators</p>
                                         </div>
@@ -233,7 +233,7 @@ $('#footer').append(`<footer class="page-footer containerMain footer">
     <div class="col-lg-2 col-4">
         <p class="footerTitle">Features</p>
         <li class="listStyleNone"><a href="./stacking.html" class="footerAnchor">Staking</a></li>
-        <li class="listStyleNone"><a href="./GMB-Team.html" class="footerAnchor">GolldMIne Box</a></li>
+        <li class="listStyleNone"><a href="./team.html" class="footerAnchor">Betclover Box</a></li>
         <li class="listStyleNone"><a href="./cashback.html" class="footerAnchor">Cashback</a></li>
         <li class="listStyleNone"><a href="./dailytasks.html" class="footerAnchor">Daily tasks</a></li>
     </div>
@@ -244,9 +244,9 @@ $('#footer').append(`<footer class="page-footer containerMain footer">
     <div class="col-lg-2 col-4">
         <p class="footerTitle">About us</p>
         <li class="listStyleNone"><a href="./news.html" class="footerAnchor">News</a></li>
-        <li class="listStyleNone"><a href="./GMB-Token.html" class="footerAnchor">About GMB</a></li>
-        <li class="listStyleNone"><a href="./GMB-Team.html" class="footerAnchor">About GoldMine team</a></li>
-        <li class="listStyleNone"><a href="#" class="footerAnchor">GoldMine Docs</a></li>
+        <li class="listStyleNone"><a href="#" class="footerAnchor">About BTC</a></li>
+        <li class="listStyleNone"><a href="./team.html" class="footerAnchor">About Betclover team</a></li>
+        <li class="listStyleNone"><a href="#" class="footerAnchor">Betclover Docs</a></li>
     </div>
     <div class="col-lg-2 col-4">
         <p class="footerTitle">Help</p>

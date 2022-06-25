@@ -62,7 +62,8 @@ padding: 40px 4%;
     padding: 9px;
     display: flex;
     align-items: center;
-    background-color: #202a39;
+    /* background-color: #202a39; */
+    background-color: transparent;
     border-radius: 8px;
     align-self: center;
     cursor: pointer;

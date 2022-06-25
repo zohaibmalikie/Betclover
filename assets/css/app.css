@@ -3011,7 +3011,7 @@ input::placeholder {
 
 	height: 13px;
 
-	background: #1e1e1e;
+	background: #fff;
 
 	position: absolute;
 
@@ -3021,9 +3021,9 @@ input::placeholder {
 
 	transform: rotate(45deg);
 
-	border-top: 1px solid #767676;
+	border-top: 1px solid #ffffff;
 
-	border-left: 1px solid #767676
+	border-left: 1px solid #ffffff
 
 }
 
